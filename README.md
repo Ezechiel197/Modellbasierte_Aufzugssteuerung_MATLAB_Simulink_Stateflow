@@ -33,7 +33,7 @@ The "brain" of the system is a hierarchical Finite State Machine (FSM) designed 
 **Ezechiel Tonkeme**
 
 
-    <img width="708" height="720" alt="image" src="https://github.com/user-attachments/assets/8a309e54-e0cf-45c0-8b4d-3917211373c2" />
+  <img width="708" height="720" alt="image" src="https://github.com/user-attachments/assets/8a309e54-e0cf-45c0-8b4d-3917211373c2" />
 
 
 
