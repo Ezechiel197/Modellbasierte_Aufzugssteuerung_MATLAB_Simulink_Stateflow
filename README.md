@@ -11,7 +11,9 @@ It combines a physical simulation of cabin dynamics with complex discrete-event 
 **Graphical User Interface (MATLAB GUI / HMI)**
 
   :white_check_mark: The system is controlled via a custom-built app that serves as the interface between the user and the simulation.
+  
   :white_check_mark: Interaction: Hall call buttons ("up"/"down") on each floor and car station buttons for destination selection.
+  
   :white_check_mark: Real-Time Coupling: Implementation of set_param commands to manipulate Simulink runtime variables directly from the UI.
 
 ---
@@ -20,7 +22,9 @@ It combines a physical simulation of cabin dynamics with complex discrete-event 
 The "brain" of the system is a hierarchical Finite State Machine (FSM) designed in Stateflow.
 
   :white_check_mark: State Management: Clear separation between "Travel," "Floor Stop," and "Door Operation."
+  
   :white_check_mark: Request Prioritization: Intelligent queue processing to determine the most efficient path between floors.
+  
   :white_check_mark: Safety Logic: Integrated limit switch logic (e.g., Endsch_EG_u, Endsch_2_o) to ensure the cabin stays within the physical boundaries of the shaft.
 
 ---
